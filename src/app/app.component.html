@@ -1,0 +1,412 @@
+<section class="bg-color">
+  <div class="container">
+    <div class="title">
+      <P>The Best Seller of Gadgets</P>
+      <h1><span>Icent</span>_Computers</h1>
+    </div>
+    <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide>
+        <div class="card">
+          <div class="card-main">
+            <div class="discount">-9%</div>
+            <div class="label label-green">Pre-Order</div>
+            <div class="product-container">
+              <div class="p" (mouseover)="changeImage($event)"><img src="../assets/icons/img1.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage($event)"><img src="../assets/icons/img1i.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage($event)"><img src="../assets/icons/img1ii.jpg" alt="Product"></div>
+            </div>
+            <div class="image">
+              <Img src="{{url}}" alt="image">
+            </div>
+            <div class="cart-line"></div>
+            <div class="cart-item">
+              <ul>
+                <li><a href=""><i class="fa fa-shopping-basket"></i></a></li>
+                <li><a href=""><i class="fa fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-search"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <a href="">Apple Iphone</a>
+            <div class="rating">
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p><span class="money">$485.03</span> <span class="old-price">$533.00</span></p>
+          </div>
+        </div>
+      </ng-template>  
+      <ng-template carouselSlide>
+        <div class="card">
+          <div class="card-main">
+            <div class="discount">-10%</div>
+            <div class="label label-green">Pre-Order</div>
+            <div class="product-container">
+              <div class="p" (mouseover)="changeImages($event)"><img src="../assets/icons/img2.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImages($event)"><img src="../assets/icons/img2i.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImages($event)"><img src="../assets/icons/img2ii.jpg" alt="Product"></div>
+            </div>
+            <div class="image">
+              <Img src="{{urls}}" alt="image">
+            </div>
+            <div class="cart-line"></div>
+            <div class="cart-item">
+              <ul>
+                <li><a href=""><i class="fa fa-shopping-basket"></i></a></li>
+                <li><a href=""><i class="fa fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-search"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <a href="">Laptop</a>
+            <div class="rating">
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p><span class="money">$246.00</span> <span class="old-price">$274.00</span></p>
+          </div>
+        </div>
+      </ng-template>  
+      <ng-template carouselSlide>
+        <div class="card">
+          <div class="card-main">
+            <div class="discount">-6%</div>
+            <div class="label label-green">Pre-Order</div>
+            <div class="product-container">
+              <div class="p" (mouseover)="changeImage3($event)"><img src="../assets/icons/img3.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage3($event)"><img src="../assets/icons/img3i.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage3($event)"><img src="../assets/icons/img3ii.jpg" alt="Product"></div>
+            </div>
+            <div class="image">
+              <Img src="{{url3}}" alt="image">
+            </div>
+            <div class="cart-line"></div>
+            <div class="cart-item">
+              <ul>
+                <li><a href=""><i class="fa fa-shopping-basket"></i></a></li>
+                <li><a href=""><i class="fa fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-search"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <a href="">Apple Watch</a>
+            <div class="rating">
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p><span class="money">$258.00</span> <span class="old-price">$275.00</span></p>
+          </div>
+        </div>
+      </ng-template> 
+      <ng-template carouselSlide>
+        <div class="card">
+          <div class="card-main">
+            <div class="discount">-8%</div>
+            <div class="label label-green">Pre-Order</div>
+            <div class="product-container">
+              <div class="p" (mouseover)="changeImage4($event)"><img src="../assets/icons/img4.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage4($event)"><img src="../assets/icons/img4i.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage4($event)"><img src="../assets/icons/img4ii.jpg" alt="Product"></div>
+            </div>
+            <div class="image">
+              <Img src="{{url4}}" alt="image">
+            </div>
+            <div class="cart-line"></div>
+            <div class="cart-item">
+              <ul>
+                <li><a href=""><i class="fa fa-shopping-basket"></i></a></li>
+                <li><a href=""><i class="fa fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-search"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <a href="">Tablet</a>
+            <div class="rating">
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p><span class="money">$101.20</span> <span class="old-price">$110.00</span></p>
+          </div>
+        </div>
+      </ng-template> 
+      <ng-template carouselSlide>
+        <div class="card">
+          <div class="card-main">
+            <div class="discount">0%</div>
+            <div class="label label-green">Pre-Order</div>
+            <div class="product-container">
+              <div class="p" (mouseover)="changeImage5($event)"><img src="../assets/icons/img5.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage5($event)"><img src="../assets/icons/img5i.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage5($event)"><img src="../assets/icons/img5ii.jpg" alt="Product"></div>
+            </div>
+            <div class="image">
+              <Img src="{{url5}}" alt="image">
+            </div>
+            <div class="cart-line"></div>
+            <div class="cart-item">
+              <ul>
+                <li><a href=""><i class="fa fa-shopping-basket"></i></a></li>
+                <li><a href=""><i class="fa fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-search"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <a href="">Mouse</a>
+            <div class="rating">
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p><span class="money">$9.00</span> <span class="old-price">$9.00</span></p>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div class="card">
+          <div class="card-main">
+            <div class="discount">-5%</div>
+            <div class="label label-green">Pre-Order</div>
+            <div class="product-container">
+              <div class="p" (mouseover)="changeImage6($event)"><img src="../assets/icons/img6.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage6($event)"><img src="../assets/icons/img6i.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage6($event)"><img src="../assets/icons/img6ii.jpg" alt="Product"></div>
+            </div>
+            <div class="image">
+              <Img src="{{url6}}" alt="image">
+            </div>
+            <div class="cart-line"></div>
+            <div class="cart-item">
+              <ul>
+                <li><a href=""><i class="fa fa-shopping-basket"></i></a></li>
+                <li><a href=""><i class="fa fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-search"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <a href="">DesKtop Monitor</a>
+            <div class="rating">
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p><span class="money">$72.37</span> <span class="old-price">$76.18</span></p>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div class="card">
+          <div class="card-main">
+            <div class="discount">-3%</div>
+            <div class="label label-green">Pre-Order</div>
+            <div class="product-container">
+              <div class="p" (mouseover)="changeImage7($event)"><img src="../assets/icons/img7.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage7($event)"><img src="../assets/icons/img7i.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage7($event)"><img src="../assets/icons/img7ii.jpg" alt="Product"></div>
+            </div>
+            <div class="image">
+              <Img src="{{url7}}" alt="image">
+            </div>
+            <div class="cart-line"></div>
+            <div class="cart-item">
+              <ul>
+                <li><a href=""><i class="fa fa-shopping-basket"></i></a></li>
+                <li><a href=""><i class="fa fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-search"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <a href="">Laptop Charger</a>
+            <div class="rating">
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p><span class="money">$13.60</span> <span class="old-price">$17.00</span></p>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div class="card">
+          <div class="card-main">
+            <div class="discount">-5%</div>
+            <div class="label label-green">Pre-Order</div>
+            <div class="product-container">
+              <div class="p" (mouseover)="changeImage8($event)"><img src="../assets/icons/img8.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage8($event)"><img src="../assets/icons/img8i.jpg" alt="Product"></div>
+              <div class="p" (mouseover)="changeImage8($event)"><img src="../assets/icons/img8ii.jpg" alt="Product"></div>
+            </div>
+            <div class="image">
+              <Img src="{{url8}}" alt="image">
+            </div>
+            <div class="cart-line"></div>
+            <div class="cart-item">
+              <ul>
+                <li><a href=""><i class="fa fa-shopping-basket"></i></a></li>
+                <li><a href=""><i class="fa fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-search"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <a href="">Incidid Tongue Bar</a>
+            <div class="rating">
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p><span class="money">$31.35</span> <span class="old-price">$33.00</span></p>
+          </div>
+        </div>
+      </ng-template> 
+    </owl-carousel-o>   
+  </div>
+</section>
+
+
+<section class="footer-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="footer-logo">
+          <img src="../assets/icons/logo.JPG" alt="Footer-Logo">
+        </div>
+        <div class="footer-top-menu">
+          <ul>
+            <li>
+              <i class="fa fa-home"></i>
+              <span class="heading">Address:</span>
+              <span class="address">603 Itaquera. Sao Paulo, Brazil</span>
+            </li>
+            <li>
+              <i class="fa fa-envelope"></i>
+              <span class="heading">Mail Us:</span>
+              <span class="email">
+                <a href="mailto:okosisijenifer@gmail.com">okosisijenifer.com</a>
+              </span>
+            </li>
+            <li>
+              <i class="fa fa-phone"></i>
+              <span class="heading">Phone:</span>
+              <span class="number">
+                <a href="tel:+551199787128">+5511997871628</a>
+              </span>
+            </li>
+            <li>
+              <a href="">
+                <img src="../assets/icons/Payment.JPG" alt="Payment">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer-all-menu">
+          <h2>My Account</h2>
+          <ul>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">Information</a>
+            </li>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">Order History</a>
+            </li>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">My Wishlist</a>
+            </li>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">Privacy Policy</a>
+            </li>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">Site Map</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer-all-menu">
+          <h2>Information</h2>
+          <ul>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">Cart</a>
+            </li>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">Product Support</a>
+            </li>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">PC Setup & Support</a>
+            </li>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">Services</a>
+            </li>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">Extended Service Plans</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="footer-all-menu">
+          <h2>Our Service</h2>
+          <ul>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">About</a>
+            </li>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">Shoppig Guide</a>
+            </li>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">Store Location</a>
+            </li>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">Affiliates</a>
+            </li>
+            <li>
+              <i class="fa fa-circle"></i>
+              <a href="">Customer Point Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
